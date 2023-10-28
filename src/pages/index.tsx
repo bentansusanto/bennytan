@@ -1,10 +1,10 @@
-import Homepage from "@/PageComponent/Homepage";
+import Homepage from "@/PageComponent";
 import Layout from "@/layout";
 
 export default function Home() {
   return (
-      <Layout>
-          <Homepage/>
-      </Layout>
-  )
+    <Layout>
+      <Homepage />
+    </Layout>
+  );
 }
